@@ -29,7 +29,6 @@ function populateTable() {
   tbody.innerHTML = "";
 
   transactions.forEach(transaction => {
-    // create and populate a table row
     let tr = document.createElement("tr");
     tr.innerHTML = `
       <td>${transaction.name}</td>
